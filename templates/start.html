@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content%}
+<h1>Welcome to the Survey!</h1>
+
+<p>
+    Please read each question carefully and choose your answer from the listed options
+</p>
+<form action="/begin" method="POST">
+    <button>Begin</button>
+</form>
+
+{% endblock %}
